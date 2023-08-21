@@ -1,7 +1,80 @@
-html {
-  max-width: 720px;
+/* .card {
+  border: none;
 }
 
-body {
-  background: #fff;
+.card > p {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+}
+
+p:focus,
+p:active,
+p:hover {
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: 1px pink;
+
+  direction: rtl;
+} */
+
+#test {
+  color: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-stroke: unset;
+
+  text-align: justify;
+  letter-spacing: 0.01px;
+}
+
+span {
+  text-align: left;
+  text-transform: uppercase;
+
+  text-decoration: underline solid red;
+}
+
+span:hover {
+	text-decoration-line: line-through;
+	text-decoration-style: wavy;
+}
+
+pre {
+	tab-size: 5;
+}
+
+* {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+
+	font-display: swap;
+}
+
+span {
+	font-size: larger;
+
+	font-weight: 900;
+
+	font-style: italic;
+}
+
+.test {
+	font-weight: lighter;
+	font-style: oblique;
+}
+
+.test {
+	display: none;
+}
+
+.block {
+	display: inline-block;
+	background: rgb(208, 208, 208);
+	margin: auto;
+
+	width: 100%;
+
+	padding: 15px;
+
+
 }

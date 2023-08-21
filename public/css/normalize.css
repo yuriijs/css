@@ -595,7 +595,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -790,15 +789,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-button,
-html,
-input,
-select,
-textarea {
-  color: #222;
-}
-
 
 img {
   vertical-align: middle;
