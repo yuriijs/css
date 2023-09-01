@@ -279,6 +279,10 @@
 	flex-direction: column;
 }
 
+#form_input_1 {
+	margin-bottom: 12px;
+}
+
 .form_input {
 	padding: var(--space-xm);
 	border: 1px solid #CED4DA;
