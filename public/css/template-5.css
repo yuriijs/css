@@ -344,7 +344,7 @@
 	grid-template-rows: repeat(3, 1fr);
 	/* grid-template-areas: 'messages messages form' 'advantages advantages advantages'; */
 
-	grid-auto-rows: 2fr;
+	grid-auto-rows: 1fr;
 }
 
 .messages {
